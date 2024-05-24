@@ -23,8 +23,6 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
             response.sendRedirect("/login?redirectURL=" + requestURI);
             return false; //이거해줘야 여기서 끝남
         }
-
-
         return true;
     }
 }
